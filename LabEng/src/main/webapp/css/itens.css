@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Armata&family=Teko&family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color:#F5F5F5;
+}
+
+input[type=submit] {
+    color: black;
+    background-color: #808080;
+    border-radius: 70px;
+    font-size: 15px;
+    width: 105px;
+    height: 35px;
+    font-weight: 400;
+}
+
+input[type=submit]:hover {
+    background-color: #808080;
+}
+
+.calculado,
+.cadastro,
+select {
+    background-color: #F5F5DC;
+    border-radius: 20px;
+    outline: none;
+    padding: 0 0.5rem;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #C0C0C0;
+}
+
+.title {
+    margin-top: 2px;
+}
+
+.cadastrar {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Armata";
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.itens {
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dcdcdc;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.aluno {
+    display: flex;
+    gap: 25px;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    padding: 20px;
+    margin-top: 8px;
+}
+
+.aviso {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.menu {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.mensagem {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.table_round {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table_round th,
+.table_round td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table_round th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.table_round tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table_round tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table_round input[type="text"],
+.table_round input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.table_round form {
+    display: inline;
+}
+
+
+.table_round input[type="submit"] {
+    color: #fff;
+    background-color: #4CAF50; 
+    border-radius: 4px;
+    font-size: 12px;
+    width: 100px; 
+    height: 40px; 
+    font-weight: 400;
+    border: none; 
+}
+
+.table_round input[type="submit"]:hover {
+    background-color: #45a049; 
+}
